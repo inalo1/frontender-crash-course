@@ -274,13 +274,17 @@ nav ul a:hover {
         align-items: center;
     }
 
+    .container ul li p {
+        text-align: center;
+    }
+
     .blue-container ul li{
         margin-bottom: 0;
     }
 
 
     .blue-container ul li p{
-       padding: 0 .8em;
+       padding: 0 1.2em;
     }
 
     .gray-container ul {

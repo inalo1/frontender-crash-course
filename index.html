@@ -106,5 +106,22 @@
         </div>
     </footer>
 
+
+    <script>
+
+        var menu = document.getElementById('menu');
+        var nav = document.getElementById('nav');
+        var exit = document.getElementById('exit');
+
+        menu.addEventlistener('click',function(e){
+            nav.classlist.toggle('hide-mobile');
+            e.preventDefault();
+        });
+        exit.addEventlistener('click',function(e){
+            nav.classlist.add('hide-mobile');
+            e.preventDefault();
+        });
+        
+    </script>
 </body>
 </html>
